@@ -1,8 +1,10 @@
 # Snippets-Copilot
 
+## Configurar Sublime Text
+
 https://nacholabraweb.000webhostapp.com/Tutoriales/#/Sublime
 
-# comands
+## Comandos
 
 vc
 
