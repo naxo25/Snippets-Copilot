@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+mounted () {},
+]]></content>
+  <tabTrigger>mounted</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>Vue component</description>
+</snippet>

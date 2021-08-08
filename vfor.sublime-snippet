@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<div v-for="item in items">
+  <p> {{ item }} </p>
+</div>
+]]></content>
+  <tabTrigger>vfor</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>Vue component</description>
+</snippet>

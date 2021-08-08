@@ -1,0 +1,20 @@
+{
+  "name": "SnippetsCopilot",
+  "homepage": "https://github.com/naxo25/Snippets-Copilot",
+  "description": "SnippetsCopilot > GithubCopilot",
+  "author": "Ignacio Labra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo SnippetsCopilot > GithubCopilot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naxo25/Snippets-Copilot.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naxo25/Snippets-Copilot/issues"
+  }
+}

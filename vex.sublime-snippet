@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+export default {
+  data () {
+    return {
+    }
+  }
+}
+]]></content>
+  <tabTrigger>vex</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>Vue component</description>
+</snippet>

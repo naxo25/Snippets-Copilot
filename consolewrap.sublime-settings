@@ -1,0 +1,7 @@
+// Settings in here override those in "/User/consolewrap.sublime-settings",
+
+{
+	"js": {
+		"semicolon": false
+	}
+}

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+import { createStore } from 'vuex'
+
+export default createStore({
+  state: {
+  },
+  mutations: {
+  },
+  actions: {
+  },
+  modules: {
+  }
+})
+]]></content>
+  <tabTrigger>vuex3</tabTrigger>
+  <scope>source.js</scope>
+  <description>Vuex structure</description>
+</snippet>

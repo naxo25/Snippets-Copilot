@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+addEventListener('${1:this}', () => {
+	
+})
+]]></content>
+  <tabTrigger>addEvent</tabTrigger>
+  <scope>source.js</scope>
+  <description>addEventListener Js</description>
+</snippet>

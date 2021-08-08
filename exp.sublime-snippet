@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+export default
+]]></content>
+  <tabTrigger>exp</tabTrigger>
+  <scope>text.html</scope>
+  <description>js</description>
+</snippet>

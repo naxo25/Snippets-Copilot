@@ -1,0 +1,5 @@
+[
+	{ "keys": ["ctrl+7"], "command": "toggle_comment",
+		"args": { "block": false }
+	}
+]

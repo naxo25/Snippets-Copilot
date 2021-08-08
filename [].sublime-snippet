@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+const [${1:value},set${1:value}] = useState()
+]]></content>
+  <tabTrigger>useState(${1:value})</tabTrigger>
+  <scope>text</scope>
+  <description>Js</description>
+</snippet>

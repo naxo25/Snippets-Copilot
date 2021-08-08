@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+function functionName () {
+  
+}
+]]></content>
+  <tabTrigger>fu</tabTrigger>
+  <scope>text</scope>
+  <description>Function</description>
+</snippet>

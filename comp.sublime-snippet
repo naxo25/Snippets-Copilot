@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+computed: {},
+]]></content>
+  <tabTrigger>comp</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>Vue component</description>
+</snippet>
