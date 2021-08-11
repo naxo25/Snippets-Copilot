@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const {${1:}} = payload
+]]></content>
+  <tabTrigger>destructuring</tabTrigger>
+  <scope>source.js</scope>
+  <description>destructuring</description>
+</snippet>

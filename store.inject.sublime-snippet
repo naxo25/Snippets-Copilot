@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const store = inject('store')
+]]></content>
+  <tabTrigger>inject</tabTrigger>
+  <scope>source.js</scope>
+  <description>Vue inject store</description>
+</snippet>
