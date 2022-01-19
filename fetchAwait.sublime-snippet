@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+await fetch('${1:https://randomuser.me/api/?results=5}').then(response => response.json());
+]]></content>
+  <tabTrigger>awfetch</tabTrigger>
+  <scope>source.js</scope>
+  <description>Fetch await</description>
+</snippet>
