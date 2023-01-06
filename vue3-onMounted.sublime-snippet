@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+onMounted(() => {
+  ${1:}
+})
+]]></content>
+  <tabTrigger>onMounted,mounted</tabTrigger>
+  <scope>source.js</scope>
+  <description>onMounted vue3</description>
+</snippet>

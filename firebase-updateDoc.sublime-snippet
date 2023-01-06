@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+updateDoc(doc(db,${1:colection},${2:id}),{ campo: '' })
+]]></content>
+  <tabTrigger>updateDoc,fup</tabTrigger>
+  <scope>source.js</scope>
+  <description>firebase updateDoc</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+export const ${1:functionName} = () => {
+  ${2://}
+}
+]]></content>
+  <tabTrigger>eArrow =></tabTrigger>
+  <scope>source.js</scope>
+  <description>export Arrow Function</description>
+</snippet>

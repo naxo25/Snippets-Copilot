@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+find(a => a.${1:campo} === ${1:campo})
+]]></content>
+  <tabTrigger>{find, search}</tabTrigger>
+  <scope>source.js</scope>
+  <description>buscar search find</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+filters[key].title.toLocaleLowerCase().includes(filterText.value.toLocaleLowerCase())
+filters[id].title.toLocaleLowerCase().substr(0, 3)
+]]></content>
+  <tabTrigger>{exfilter}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Example filter</description>
+</snippet>

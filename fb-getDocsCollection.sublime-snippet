@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+const ${1:query} = await getDocs(query(collection(db, '${2:collection}'), where('campo', '==', ${3:search})));
+if (${1:query}.empty) {
+  console.log('No existe')
+  return;
+}
+]]></content>
+  <tabTrigger>{ getDocsCollection, fgetDocsCollection, firebase }</tabTrigger>
+  <scope>source.js</scope>
+  <description>Snapshot Collection</description>
+</snippet>

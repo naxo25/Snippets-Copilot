@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+if (typeof ${1:numero} !== 'number' || ${1:numero} <= 0) {
+  Notification('Valor debe ser un número mayor a cero.')
+  return
+}
+]]></content>
+  <tabTrigger>validationNumber</tabTrigger>
+  <scope>source.js</scope>
+  <description>Validation Number</description>
+</snippet>

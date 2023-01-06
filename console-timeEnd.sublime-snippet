@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+console.timeEnd(${1:n})
+]]></content>
+  <tabTrigger>cte</tabTrigger>
+  <scope>source.js</scope>
+  <description>console timeEnd</description>
+</snippet>

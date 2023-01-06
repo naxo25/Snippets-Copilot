@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+const q = await getDocs(query(collection(db, ${1:collection}, ${2:key}, ${3:subcoll})))
+q.forEach(item => ${4:item})
+]]></content>
+  <tabTrigger>{fgetDocs, firebase}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Firebase getDocs</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+updateDoc(doc(db, ${1:impar}),{${2:data}})
+]]></content>
+  <tabTrigger>{fbupdateDoc, firebase}</tabTrigger>
+  <scope>source.js</scope>
+  <description>firebase updateDoc</description>
+</snippet>

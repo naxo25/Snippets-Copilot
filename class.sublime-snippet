@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+class='${1:class}'
+]]></content>
+  <tabTrigger>class</tabTrigger>
+  <description>class</description>
+</snippet>

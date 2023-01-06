@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+  animation: animation 1s;
+}
+
+@keyframes animation {
+  0% {}
+  100% {}
+}
+]]></content>
+  <tabTrigger>{animationcss}</tabTrigger>
+  <scope>source.scss,source.css</scope>
+  <description>animation css</description>
+</snippet>

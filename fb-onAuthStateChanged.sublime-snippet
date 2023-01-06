@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+import { getAuth, onAuthStateChanged } from "firebase/auth";
+
+const auth = getAuth();
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    const uid = user.uid;
+  } else {
+    // User is signed out
+  }
+});
+]]></content>
+  <tabTrigger>{onAuthStateChanged, fbonAuthStateChanged, fbauthstate}</tabTrigger>
+  <scope>source.js</scope>
+  <description>firebase Auth onAuthStateChanged</description>
+</snippet>

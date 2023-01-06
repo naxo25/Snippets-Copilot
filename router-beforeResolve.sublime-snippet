@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+router.beforeResolve((to,from,next) =>
+  ${1}
+)
+]]></content>
+  <tabTrigger>{routerBefore, beforeResolve}</tabTrigger>
+  <scope>source.js</scope>
+  <description>routerBefore, detectar cambios en rutas</description>
+</snippet>

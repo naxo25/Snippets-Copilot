@@ -1,0 +1,55 @@
+<snippet>
+  <content><![CDATA[
+/* Copy to index.html */
+<script>
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then(reg => console.log('service worker registered'))
+      .catch(err => console.log('service worker not registered', err));
+  }
+</script>
+
+/* create sw.js */
+const dynamicCacheName = 'naxWorker';
+
+const assets = [
+  '/',
+  'index.html',
+  'noimg.jpg'
+]
+
+self.addEventListener("install", installEvent => {
+  installEvent.waitUntil(
+    caches.open(dynamicCacheName).then(cache => {
+      cache.addAll(assets)
+    })
+  )
+})
+
+self.addEventListener('fetch', evt => {
+ evt.respondWith(
+   caches.match(evt.request).then((cacheResponse) => {
+     if (cacheResponse) {
+       fetch(evt.request).then((networkResponse) => {
+         return caches.open(dynamicCacheName).then((cache) => {
+           cache.put(evt.request, networkResponse.clone());
+           return networkResponse;
+         })
+       });
+       return cacheResponse;
+     } else {
+       return fetch(evt.request).then((networkResponse) => {
+         return caches.open(dynamicCacheName).then((cache) => {
+           cache.put(evt.request, networkResponse.clone());
+           return networkResponse;
+         })
+       });
+     }
+   })
+ );
+})
+]]></content>
+  <tabTrigger>{naxsw,serviceworker}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Service Worker sample</description>
+</snippet>

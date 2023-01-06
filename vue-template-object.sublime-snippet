@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+template
+]]></content>
+  <tabTrigger>{durationFormat}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Obtener segundos en formato hh:mm:ss</description>
+</snippet>

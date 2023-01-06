@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
 fetch('${1:https://randomuser.me/api/?results=5}').then(async response => {
-  console.log(await response.json())
+  const users = await response.json()
+  console.log(users.results)
 })
 ]]></content>
   <tabTrigger>fetch</tabTrigger>

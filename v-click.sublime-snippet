@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+click='${1:}'
+]]></content>
+  <tabTrigger>{directive, vclick}</tabTrigger>
+  <description>Vue directive v-click</description>
+</snippet>

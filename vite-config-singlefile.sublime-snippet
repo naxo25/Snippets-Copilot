@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+import {viteSingleFile} from "vite-plugin-singlefile"
+]]></content>
+  <tabTrigger>{viteconfigsingle}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Vite Config singlefile</description>
+</snippet>

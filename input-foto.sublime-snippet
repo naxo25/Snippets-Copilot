@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<button flat round color="primary" icon="add_a_photo" class='ml-2' @click='foto'>Sube tu foto</button>
+<input id='foto' hidden class='ml-3' @change='${1:event}($event, true)' type="file" />
+js: const foto = () => document.querySelector("#foto").click(); // event.target.files[0]
+]]></content>
+  <tabTrigger>inputFoto, upFoto, uploadFoto</tabTrigger>
+  <description>input para subir foto</description>
+</snippet>

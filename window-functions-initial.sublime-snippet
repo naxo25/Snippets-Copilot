@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+window.cl = (log) => {
+  try {
+    if (location.hostname === 'localhost') return log;
+    return
+  } catch (e) {
+    // cl(e)
+  }
+};
+
+window.is5173 = location.host === 'localhost:5173';
+
+window.Notify = (msg) => {
+  console.log(msg)
+};
+]]></content>
+  <tabTrigger>{windowfunctions}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Window Functions</description>
+</snippet>

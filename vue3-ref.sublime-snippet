@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const ${1:var} = ref(${2})
+]]></content>
+  <tabTrigger>ref,const</tabTrigger>
+  <scope>source.js</scope>
+  <description>vue3 {}</description>
+</snippet>

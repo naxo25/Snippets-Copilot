@@ -1,0 +1,40 @@
+<snippet>
+  <content><![CDATA[
+<template>
+  <div class='text-white font-semibold mb-3'>
+    <div class='bar mx-12 flex items-center justify-center'>
+        <img src="/icons/search.svg">
+        <input type="text" class="w-11/12 font-normal py-3 text-lg bg-transparent rounded-lg focus:outline-none text-black" placeholder="Search, live channels, tv shows, movies, etc." />
+    </div>
+  </div>
+</template>
+
+<style lang="sass">
+    
+.bar
+  border-radius: 44px
+  border: solid 1px #fff
+  width: 95%
+  margin-top: 24px
+
+  img
+    width: 26px
+    height: 26px
+    margin: 0 24px 0 0
+
+  input
+    margin: 5px 0 5px 24px
+    font-family: Roboto
+    font-size: 20px
+    font-weight: normal
+    font-stretch: normal
+    font-style: normal
+    line-height: 0.8
+    letter-spacing: 0.5px
+    text-align: left
+    color: rgba(255, 255, 255, 0.6)
+</style>
+]]></content>
+  <tabTrigger>{codesearch}</tabTrigger>
+  <description>Example code Search</description>
+</snippet>

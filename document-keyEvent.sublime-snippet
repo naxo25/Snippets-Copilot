@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+document.addEventListener("keydown", (event) => {
+  console.log(event.keyCode)
+
+  const Events = {
+    32: () => event(), // space
+    415: () => event(),
+    19: () => event()
+  }
+
+  try {
+    Events[event.keyCode]()
+  } catch(err) {}
+})
+]]></content>
+  <tabTrigger>{dockey, documentkey, teclado}</tabTrigger>
+  <scope>source.js</scope>
+  <description>document key</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const ${1:timeoutID} = setTimeout(function() {}, 5000);
+
+clearTimeout(${1:timeoutID});
+console.log(`Tiempo de espera ${1:timeoutID}, ${${1:timeoutID}} ha sido limpiado`);
+]]></content>
+  <tabTrigger>{calcTime}</tabTrigger>
+  <description>Calcular tiempo y detener timeOut</description>
+</snippet>

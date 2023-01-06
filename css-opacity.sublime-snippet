@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+.opacity
+  animation: opacity .5s
+
+  @keyframes opacity
+    0%
+      opacity: 0
+    100%
+      opacity: 1
+]]></content>
+  <tabTrigger>{animationOpacity, opacitycss, cssopacity}</tabTrigger>
+  <scope>source.css</scope>
+  <description>animation opacity</description>
+</snippet>

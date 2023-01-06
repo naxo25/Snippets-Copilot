@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const props = defineProps({
+  ${1:value}: ${2:type}
+})
+]]></content>
+  <tabTrigger>{defineProps}</tabTrigger>
+  <scope>source.js</scope>
+  <description>defineProps vue3</description>
+</snippet>

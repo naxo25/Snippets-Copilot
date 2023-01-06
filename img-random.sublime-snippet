@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+https://placeimg.com/500/300/nature
+]]></content>
+  <tabTrigger>randomImg</tabTrigger>
+  <scope>source.js</scope>
+  <description>img ramdon</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<template>
+${1}
+</template>
+
+<script setup>
+  import {ref} from 'vue'
+  const variable = ref()
+</script>
+]]></content>
+  <tabTrigger>vtemp</tabTrigger>
+  <description>initial vue</description>
+</snippet>

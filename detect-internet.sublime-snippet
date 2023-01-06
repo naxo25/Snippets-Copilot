@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+window.addEventListener('load', event => {
+  isOnLine = navigator.onLine;
+})
+window.addEventListener('online', event => {
+  isOnLine = navigator.onLine;
+  recoverInternet()
+})
+window.addEventListener('offline', event => {
+  isOnLine = navigator.onLine;
+})
+]]></content>
+  <tabTrigger>{detectInternet}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Funcion para detectar intertnet</description>
+</snippet>

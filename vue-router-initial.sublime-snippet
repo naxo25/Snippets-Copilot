@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+import { createRouter, createWebHashHistory } from 'vue-router'
+
+const routes = [
+  {
+    path: '/',
+    component: () => import('@/components/Layout.vue'),
+    children: [
+      { path: '/', component: () => import('@/Live/Home.vue') },
+  },
+
+  // Always leave this as last one,
+  // but you can also remove it
+  {
+    path: '/:catchAll(.*)*',
+    component: () => import('@/pages/ErrorNotFound.vue')
+  }
+]
+
+
+const router = createRouter({
+  history: createWebHashHistory(),
+  routes,
+})
+
+export {
+  router
+}
+]]></content>
+  <tabTrigger>{vuerouterinit}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Vue Router initial</description>
+</snippet>

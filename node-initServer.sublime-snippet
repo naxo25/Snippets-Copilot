@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port http://localhost:${1:port}`)
+})
+]]></content>
+  <tabTrigger>{nodeserver, nodeinit}</tabTrigger>
+  <description>node init server</description>
+</snippet>

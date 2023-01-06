@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Object.keys(${1://}).length
+}
+]]></content>
+	<tabTrigger>null{}</tabTrigger>
+	<description>Objeto vacíp</description>
+</snippet>

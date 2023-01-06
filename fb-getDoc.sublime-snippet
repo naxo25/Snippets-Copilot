@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+const docSnap = await getDoc(doc(db, ${1:collection}, ${2:doc}, ${3:key}));
+if (docSnap.exists()) {
+  console.log("Document data:", docSnap.data());
+}
+]]></content>
+  <tabTrigger>{fgetdoc, firebase}</tabTrigger>
+  <scope>source.js</scope>
+  <description>firebase getDoc</description>
+</snippet>

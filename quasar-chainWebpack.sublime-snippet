@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+const path = require('path')
+chainWebpack (chain) {
+  chain.resolve.alias
+    .set('@', path.resolve(__dirname, './src'))
+}
+]]></content>
+  <tabTrigger>chainWebpack</tabTrigger>
+  <scope>source.js</scope>
+  <description>chainWebpack quasar</description>
+</snippet>

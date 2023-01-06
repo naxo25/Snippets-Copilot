@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+const ${1:query} = await query(collection(db, ${2:collection}));
+
+onSnapshot(${1:query}, (querySnapshot) => {
+  querySnapshot.docChanges().forEach(async item => {
+    const keyitem = item.doc.id
+    if (item.type === 'added' || item.type === 'modified') state.invitations[keyitem] = item.doc.data()
+    if (item.type === 'removed') delete state.invitations[keyitem]
+  })
+})
+]]></content>
+  <tabTrigger>{getcollection, fbgetcollection, firebase}</tabTrigger>
+  <scope>source.js</scope>
+  <description>snapshot collection</description>
+</snippet>

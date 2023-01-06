@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+Math.random() * 100
+]]></content>
+  <tabTrigger>{nrandom}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Number random</description>
+</snippet>

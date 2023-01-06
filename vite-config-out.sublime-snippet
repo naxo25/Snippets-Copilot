@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+build: {
+  outDir: 'dist/spa'
+}
+]]></content>
+  <tabTrigger>{viteOutconfig}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Vite Config outPut</description>
+</snippet>

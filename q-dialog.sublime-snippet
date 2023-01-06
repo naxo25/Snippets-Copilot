@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+
+  <q-dialog v-model="modal">
+    <q-card style='width: 40rem;'>
+      <q-toolbar>
+        <q-avatar>
+          <img src="/icon.png">
+        </q-avatar>
+
+        <q-toolbar-title><span class="text-bold">OTT</span> STUDIO</q-toolbar-title>
+
+        <q-btn flat round dense icon="close" v-close-popup />
+      </q-toolbar>
+
+      <q-card-section class='font-semibold'>
+        Nueva lista de reproducción
+      </q-card-section>
+
+      <q-form @submit="sendEvent(), modal = false; name = ''">
+        <q-card-section>
+          <div class="text-h6">Nombre de la lista</div>
+        </q-card-section>
+
+        <q-card-section class="q-pt-none">
+          <q-input dense color='white' dark v-model="name" autofocus required />
+        </q-card-section>
+
+        <!-- <q-card-section>
+          <div class="text-h6">Nivel de usuario</div>
+        </q-card-section> -->
+
+        <!-- <q-card-section class="q-pt-none">
+          <q-select label='Seleccionar Nivel:' required label-color='black' bg-colorun='bg-white' color='black' outlined v-model="option" :options="options" class="inline-block w-8/12"></q-select>
+        </q-card-section> -->
+
+        <q-card-actions align="right" class="text-black">
+          <q-btn flat label="Cancel" v-close-popup />
+          <q-btn type='submit' flat label="Add address" />
+        </q-card-actions>
+      </q-form>
+    </q-card>
+  </q-dialog>
+]]></content>
+	<tabTrigger>qdialog</tabTrigger>
+  <!-- <scope>source.html</scope> -->
+  <description>qdialog</description>
+</snippet>

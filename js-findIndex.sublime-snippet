@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+findIndex(a => a.${1:campo} === ${1:campo})
+]]></content>
+  <tabTrigger>{findIndex, searchIndex}</tabTrigger>
+  <scope>source.js</scope>
+  <description>buscar por indice</description>
+</snippet>

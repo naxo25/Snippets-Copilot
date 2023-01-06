@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+const fechaNow = new Date()
+const fechaFormatted = fechaNow.getFullYear()+ '/' + ('0'+(fechaNow.getMonth()+2)).substr(-2)+ '/' +('0'+fechaNow.getDate()).substr(-2)
+]]></content>
+  <tabTrigger>getFecha, formattedFecha</tabTrigger>
+  <scope>source.js</scope>
+  <description>getFecha formatted</description>
+</snippet>

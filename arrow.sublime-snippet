@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 const ${1:functionName} = () => {
-  
+  ${2://}
 }
 ]]></content>
   <tabTrigger>Arrow =></tabTrigger>

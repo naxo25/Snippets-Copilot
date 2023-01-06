@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+Object.keys(${1:array})
+]]></content>
+  <tabTrigger>objkeys</tabTrigger>
+  <scope>source.js</scope>
+  <description>Object keys</description>
+</snippet>

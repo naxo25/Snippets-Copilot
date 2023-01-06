@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+  window.cl = (log) => {
+    try {
+      if (location.hostname === 'localhost') return log;
+      return
+    } catch (e) {
+      // cl(e)
+    }
+  };
+]]></content>
+  <tabTrigger>{appcl}</tabTrigger>
+  <scope>source.js</scope>
+  <description>app cl for console log</description>
+</snippet>

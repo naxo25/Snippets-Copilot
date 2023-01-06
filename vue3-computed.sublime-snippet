@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const ${1:nameFunction} = computed(() => {
+  ${2://}
+})
+]]></content>
+  <tabTrigger>computed</tabTrigger>
+  <scope>source.js</scope>
+  <description>computed vue3</description>
+</snippet>

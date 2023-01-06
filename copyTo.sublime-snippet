@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+navigator.clipboard.writeText(${1:variable});
+alert("Contenido copiado al portapapeles.");
+]]></content>
+  <tabTrigger>copyToClipBoard</tabTrigger>
+  <scope>source.js</scope>
+  <description>copyToClipBoard</description>
+</snippet>

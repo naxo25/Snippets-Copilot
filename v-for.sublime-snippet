@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+v-for='item in ${1:object}'
+]]></content>
+	<tabTrigger>{directive, vfor}</tabTrigger>
+  <description>vue directive v-for='item in ${$:object}'</description>
+</snippet>

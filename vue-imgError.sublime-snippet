@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+@error='${1:event}.target.src="/noimg.png"'
+]]></content>
+  <tabTrigger>imgerror,errorimg</tabTrigger>
+  <description>vue img error</description>
+</snippet>

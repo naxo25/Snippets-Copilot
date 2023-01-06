@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<script setup>
+  ${1:}
+</script>
+]]></content>
+  <tabTrigger>{vvs, script setup}</tabTrigger>
+  <scope>source.js</scope>
+  <description>vue script setup</description>
+</snippet>

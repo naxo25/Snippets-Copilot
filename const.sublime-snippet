@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const ${1:var} = ${2}
+]]></content>
+  <tabTrigger>const</tabTrigger>
+  <scope>source.js</scope>
+  <description>const</description>
+</snippet>

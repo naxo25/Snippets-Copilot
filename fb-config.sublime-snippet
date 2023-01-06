@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+import {initializeApp} from "firebase/app"
+import {getFirestore} from "firebase/firestore"
+
+${1:const firebaseConfig = {
+};}
+
+const firebaseApp = initializeApp(firebaseConfig)
+// const space = 'space/'
+
+const db = getFirestore()
+
+export {db,space}
+]]></content>
+  <tabTrigger>{firebaseconfig, firebase}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Firebase Config</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+setDoc(doc(db, 'collection', id, 'playlists', id), {${1:...items }})
+]]></content>
+  <tabTrigger>{fbsetDoc,fbaddDoc,firebase}</tabTrigger>
+  <scope>source.js</scope>
+  <description>Firebase setDoc Impar</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+import {useRouter} from 'vue-router'
+const router = useRouter()
+console.log(router)
+]]></content>
+  <tabTrigger>vuerouter,useRouter</tabTrigger>
+  <scope>source.js</scope>
+  <description>Vue router</description>
+</snippet>

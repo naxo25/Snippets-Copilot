@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+const createApi = (url) => {
+  return new Proxy({}, {
+    get: (target, prop) => {
+      return async id => {
+        const request = url + '/' + prop + '/' + id;
+        console.log(request);
+        return request;
+      }
+    }
+  })
+}
+
+const api = createApi('https://pokeapi.co/api/v2')
+const ditto = api.pokemon('ditto')
+const ditto2 = api.type(3)
+]]></content>
+  <tabTrigger>{createProxy, proxy}</tabTrigger>
+  <scope>source.js</scope>
+  <description>create proxy</description>
+</snippet>

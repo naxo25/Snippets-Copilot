@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-import { ${1:functionName} } from '${2:rutaJs}'
+import {${1:functionName}} from '${2:rutaJs}'
 ]]></content>
-	<tabTrigger>imp{}</tabTrigger>
+	<tabTrigger>import{}</tabTrigger>
 	<scope>source.js</scope>
 	<description>Import con {}</description>
 </snippet>

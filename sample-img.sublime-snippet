@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+https://duckduckgo.com/assets/logo_header.v108.svg
+]]></content>
+  <tabTrigger>{imgex, imgsample, ejimg}</tabTrigger>
+  <scope>source</scope>
+  <description>example img</description>
+</snippet>

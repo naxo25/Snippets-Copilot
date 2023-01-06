@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<script setup>
+  import { ref } from 'vue'
+  const variable = ref()
+</script>
+]]></content>
+  <tabTrigger>vss</tabTrigger>
+  <description>script setup</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+::-webkit-scrollbar {
+  display: none;
+}
+]]></content>
+  <tabTrigger>{scrollNone}</tabTrigger>
+  <scope>source.css</scope>
+  <description>scrollbar none</description>
+</snippet>

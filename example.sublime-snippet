@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-console.log(${1:this})
+$
 ]]></content>
-  <tabTrigger>name</tabTrigger>
+  <tabTrigger>{directive}</tabTrigger>
   <scope>source</scope>
-  <description>desc</description>
+  <description>Vue directive</description>
 </snippet>

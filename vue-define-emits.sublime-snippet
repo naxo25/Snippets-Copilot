@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const emit = defineEmits(['${1:funct}']);
+]]></content>
+  <tabTrigger>{defineEmits}</tabTrigger>
+  <scope>source.js</scope>
+  <description>defineEmits vue3</description>
+</snippet>

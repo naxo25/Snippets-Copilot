@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+onUnmounted(() => {
+  ${1:}
+})
+]]></content>
+  <tabTrigger>onUnmounted,unmounted</tabTrigger>
+  <scope>source.js</scope>
+  <description>onUnmounted vue3</description>
+</snippet>

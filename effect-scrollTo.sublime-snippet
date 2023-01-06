@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+window.scrollTo({
+  top: document.getElementById(x).offsetTop,
+  behavior: 'smooth'
+})
+]]></content>
+  <tabTrigger>{window scroll, scrollToComponent, scrollTo}</tabTrigger>
+  <scope>source.js</scope>
+  <description>scrollTo to component with behavior</description>
+</snippet>
