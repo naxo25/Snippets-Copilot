@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+"eslintConfig": {
+  "extends": "standard"
+}
+]]></content>
+  <tabTrigger>{eslintConfig}</tabTrigger>
+  <scope>source.json</scope>
+  <description>eslintConfig</description>
+</snippet>

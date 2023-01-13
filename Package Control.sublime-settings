@@ -5,19 +5,13 @@
 	],
 	"installed_packages":
 	[
-		"AutoFileName",
+		"Agila Theme",
 		"Console Wrap",
-		"Dart",
-		"Emmet",
-		"Formatter",
-		"JavaScript & NodeJS Snippets",
-		"JavaScript Snippets",
 		"Material Theme",
 		"Package Control",
 		"Sass",
-		"SublimeLinter",
+		"StandardFormat",
 		"Tailwind CSS Autocomplete",
 		"Vue Syntax Highlight",
-		"Vuejs Snippets",
 	],
 }

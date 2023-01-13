@@ -2,7 +2,7 @@
   <content><![CDATA[
 $
 ]]></content>
-  <tabTrigger>{directive}</tabTrigger>
-  <scope>source</scope>
-  <description>Vue directive</description>
+  <tabTrigger>{command}</tabTrigger>
+  <scope>source.js</scope>
+  <description>command</description>
 </snippet>

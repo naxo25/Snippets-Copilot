@@ -1,9 +1,8 @@
 <snippet>
   <content><![CDATA[
 <div>
-  ${1}
 </div>
 ]]></content>
-  <tabTrigger>div</tabTrigger>
+  <tabTrigger>{div}</tabTrigger>
   <description>div</description>
 </snippet>

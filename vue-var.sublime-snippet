@@ -2,6 +2,6 @@
 	<content><![CDATA[
 {{ ${1:i} }}
 ]]></content>
-	<tabTrigger>vuevar, vv</tabTrigger>
+	<tabTrigger>{var, vuevar, vv}</tabTrigger>
   <description>vuevar</description>
 </snippet>

@@ -1,0 +1,11 @@
+// SublimeLinter Settings - User
+{
+  "debug": true,
+  "lint_mode": "load_save",
+  "linters": {
+    "eslint": {
+      "selector": ".vue, source.js - meta.attribute-with-value"
+    }
+  }
+}
+

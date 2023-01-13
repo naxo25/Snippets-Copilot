@@ -1,10 +1,12 @@
 {
-	"ignored_packages":
-	[
+	/*"material_theme_accent_acid-lime": true,*/
+	/*"material_theme_accent_blue": true,*/
+	"font_size": 10,
+	"tab_size": 2,
+	"theme": "Material-Theme.sublime-theme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"ignored_packages": [
 		"Vintage",
 	],
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-	"theme": "Material-Theme.sublime-theme",
-	"font_size": 9,
-	"tab_size": 2,
+	"auto_complete": true,
 }
