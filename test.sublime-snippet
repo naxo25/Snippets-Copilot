@@ -1,0 +1,45 @@
+<snippet>
+  <content><![CDATA[
+import { mount } from '@vue/test-utils'
+import { expect, test, describe } from 'vitest'
+import buttons from '@/components/table/buttons.vue'
+
+describe('Buttons', () => {
+  test('sino se pasa un valor la propiedad only debe ser nula', async () => {
+    expect(buttons).toBeTruthy();
+
+     const wrapper = mount(buttons);
+     expect(wrapper.text()).toContain('');
+  })
+
+  test('si se se pasa al prop only como valor "edit" debe tomar ese valor y reenderizarse en pantalla', async () => {
+    expect(buttons).toBeTruthy();
+
+     const wrapper = mount(buttons,{
+      props: {
+        only: 'edit'
+      }
+     });
+
+    expect(wrapper.props('only')).toBe('edit');
+    expect(wrapper.find('button[name=edit]').exists()).toBeTruthy();
+    expect(wrapper.find('button[name=remove]').exists()).toBeFalsy();
+  })
+
+  test('si se se pasa un valor erroneo al prop only no debe reenderizarse botones en pantalla', async () => {
+    expect(buttons).toBeTruthy();
+
+     const wrapper = mount(buttons,{
+      props: {
+        only: 'edi'
+      }
+     });
+
+    expect(wrapper.find('button').exists()).toBeFalsy();
+  })
+})
+]]></content>
+  <tabTrigger>{ vitest }</tabTrigger>
+  <scope>source.js</scope>
+  <description>vitest example</description>
+</snippet>
