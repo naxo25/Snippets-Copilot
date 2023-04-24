@@ -4,7 +4,6 @@
   ${1:}
 </script>
 ]]></content>
-  <tabTrigger>{vvs, script setup}</tabTrigger>
-  <scope>source.js</scope>
+  <tabTrigger>{vss, setup, scriptsetup}</tabTrigger>
   <description>vue script setup</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-router.push('/${1:route}')
+$router.push('/${1:route}')
 ]]></content>
   <tabTrigger>router</tabTrigger>
   <description>router push</description>

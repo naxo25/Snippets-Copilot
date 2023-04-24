@@ -10,7 +10,7 @@ onSnapshot(${1:query}, (querySnapshot) => {
   })
 })
 ]]></content>
-  <tabTrigger>{getcollection, fbgetcollection, firebase}</tabTrigger>
+  <tabTrigger>{onSnapshot, getcollection, fbgetcollection, firebase}</tabTrigger>
   <scope>source.js</scope>
-  <description>snapshot collection</description>
+  <description>onSnapshot collection</description>
 </snippet>
