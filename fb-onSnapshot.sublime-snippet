@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const unsub = onSnapshot(doc(db, "cities", "SF"), (doc) => {
+    console.log("Current data: ", doc.data());
+});
+]]></content>
+  <tabTrigger>{onSnapshot}</tabTrigger>
+  <scope>source.js</scope>
+  <description>onSnapshot doc</description>
+</snippet>
