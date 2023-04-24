@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const asd = (value) => {
+  console.log(value)
+}
+]]></content>
+  <tabTrigger>{asdFunction}</tabTrigger>
+  <scope>source.js</scope>
+  <description>asdFunction</description>
+</snippet>
