@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<label class="toogle">
+  <input type="checkbox" v-model='${1:toogle}'>
+  <span class="slider round"></span>
+</label>
+]]></content>
+  <tabTrigger>toogle</tabTrigger>
+  <description>toogle</description>
+</snippet>
