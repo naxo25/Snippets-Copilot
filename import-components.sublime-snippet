@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+import ${1:component} from '@/components/${1:component}.vue'
+]]></content>
+	<tabTrigger>impcoms, import components</tabTrigger>
+	<scope>source.js</scope>
+	<description>Import components</description>
+</snippet>
