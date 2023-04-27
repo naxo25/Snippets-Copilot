@@ -8,6 +8,7 @@ const routes = [
     component: () => import('@/components/Layout.vue'),
     children: [
       { path: '/', component: () => import('@/Live/Home.vue') },
+    ]
   },
 
   // Always leave this as last one,
