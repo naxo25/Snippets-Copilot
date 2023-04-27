@@ -2,7 +2,7 @@
   <content><![CDATA[
 setTimeout(() => {
   ${1}
-}, ${2})
+}, ${2:time})
 ]]></content>
   <tabTrigger>{setTimeout, st}</tabTrigger>
   <scope>source.js</scope>
