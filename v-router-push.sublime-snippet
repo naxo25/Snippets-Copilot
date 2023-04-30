@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-$router.push('/${1:route}')
+router.push('/${1:route}')
 ]]></content>
-  <tabTrigger>router</tabTrigger>
+  <tabTrigger>router rpush</tabTrigger>
   <description>router push</description>
 </snippet>
