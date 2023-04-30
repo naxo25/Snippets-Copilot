@@ -1,12 +1,12 @@
 {
-  "name": "SnippetsCopilot",
+  "name": "naxo25-snippets-copilot",
   "homepage": "https://github.com/naxo25/Snippets-Copilot",
   "description": "SnippetsCopilot > GithubCopilot",
-  "author": "Ignacio Labra",
+  "author": "Ignacio Labra <git:naxo25 y.labra.25@gmail.com>",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo SnippetsCopilot > GithubCopilot"
+    "git": "brave-browser https://github.com/naxo25/Snippets-Copilot"
   },
   "repository": {
     "type": "git",

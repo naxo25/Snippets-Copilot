@@ -1,4 +1,4 @@
-# Snippets-Copilot
+# naxo25-Snippets-Copilot
 
 ## Configurar Sublime Text
 
@@ -8,63 +8,62 @@ https://nacholabraweb.000webhostapp.com/Tutoriales/#/Sublime
 
 vc
 
-	<template /> <script> export default { ... }	</script>
+    <template /> <script> export default { ... }	</script>
 
 vex
 
-	export default { data () { ... } }
+    export default { data () { ... } }
 
 vfor
 
-	<div v-for="item in items">
-	  <p> {{ item }} </p>
-	</div>
+    <div v-for="item in items">
+      <p> {{ item }} </p>
+    </div>
 
 vuex3
 
-	import { createStore } from 'vuex'
-	export default createStore({ ..
+    import { createStore } from 'vuex'
+    export default createStore({ ..
 
 exp
 
-	export default
+    export default
 
 fetch
 
-	async fetch with example
+    async fetch with example
 
 fu
 
-	function functionName() {}
+    function functionName() {}
 
 =>
-	
-	const functionName = () => {}
+const functionName = () => {}
 
 cl
 
-	console.log()
+    console.log()
 
 comp
 
-	computed: {}
+    computed: {}
 
 mount
 
-	mounted () {}
+    mounted () {}
 
 method
 
-	methods: {}
+    methods: {}
 
 data
 
-	data () {..}
+    data () {..}
 
 useState
 
-	const [value,setvalue] = useState()
+    const [value,setvalue] = useState()
 
 addEvent
 
-	addEventListener('this', () => {})
+    addEventListener('this', () => {})
