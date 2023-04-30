@@ -5,8 +5,8 @@
 	],
 	"installed_packages":
 	[
-		"Agila Theme",
 		"Console Wrap",
+		"JsPrettier",
 		"Material Theme",
 		"Package Control",
 		"Sass",
