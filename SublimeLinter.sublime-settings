@@ -4,7 +4,8 @@
   "lint_mode": "load_save",
   "linters": {
     "eslint": {
-      "selector": ".vue, source.js - meta.attribute-with-value"
+      "selector": ".vue, source.js - meta.attribute-with-value",
+      // "args": ["--stdin", "--stdin-filename", "@", "--format", "visualstudio"]
     }
   }
 }

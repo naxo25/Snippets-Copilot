@@ -11,6 +11,8 @@
 		"Package Control",
 		"Sass",
 		"StandardFormat",
+		"SublimeLinter",
+		"SublimeLinter-contrib-standard",
 		"Tailwind CSS Autocomplete",
 		"Vue Syntax Highlight",
 	],

@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
-const ${1:functionName} = () => {
+const ${1:nameFunction} = () => {
   ${2://}
 }
 ]]></content>
-  <tabTrigger>Arrow =></tabTrigger>
+  <tabTrigger>arrow =></tabTrigger>
   <scope>source</scope>
   <description>Arrow Function</description>
 </snippet>
