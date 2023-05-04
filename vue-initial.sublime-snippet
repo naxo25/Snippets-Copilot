@@ -1,9 +1,9 @@
 <snippet>
   <content><![CDATA[
 <template>
-  ${1}
+${1}
 </template>
 ]]></content>
-  <tabTrigger>vtemp</tabTrigger>
+  <tabTrigger>vuetemp, template</tabTrigger>
   <description>initial vue</description>
 </snippet>

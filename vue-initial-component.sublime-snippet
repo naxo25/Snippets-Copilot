@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<template>
+  ${1:<!-- @click="emit('nameFunction')"
+  <exampleCall v-if="value" @nameFunction='' :nameProp='' /> -->}
+</template>
+<script setup>
+  const props = defineProps({
+    ${3:nameProp}: ${4:type}
+  })
+  const emit = defineEmits()
+</script>
+]]></content>
+  <tabTrigger>vuetempcomponent, templatecomponent</tabTrigger>
+  <description>initial vue component</description>
+</snippet>
