@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<input type="file" accept="image/*" class="hidden" @change="changeImg" />
+]]></content>
+  <tabTrigger>inputImage</tabTrigger>
+  <description>inputImage</description>
+</snippet>
