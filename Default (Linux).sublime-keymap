@@ -6,5 +6,9 @@
 	{
 		"keys": ["ctrl+4"],
 		"command": "reindent"
+	},
+	{
+		"keys": ["ctrl+alt+f"],
+		"command": "js_prettier"
 	}
 ]

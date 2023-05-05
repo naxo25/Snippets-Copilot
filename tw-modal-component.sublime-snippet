@@ -1,0 +1,60 @@
+<snippet>
+  <content><![CDATA[
+<template>
+  <div class="fixed inset-0 z-50" role="dialog" aria-modal="true">
+    <div class='absolute bg-white w-full h-screen opacity-70' @click="emit('${1:nameEmit}')"></div>
+    <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <span class="hidden sm:inline-block sm:h-screen sm:align-middle" aria-hidden="true">&#8203;</span>
+
+      <form @submit='sendSubmit' class="relative inline-block px-4 pt-5 pb-4 overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl dark:bg-gray-900 sm:my-8 sm:w-full sm:max-w-sm sm:p-6 sm:align-middle">
+
+        <div class='flex gap-x-8'>
+          <div class='w-full'>
+            <h2 class='text-gray-700 text-sm my-3 font-semibold text-center'>Nuevo Bloque</h2>
+
+            <div class='text-gray-700 font-medium text-sm pb-1.5'>Nombre</div>
+            <input autofocus required type="text" v-model='${2:item}.title'
+            class="w-full px-3.5 py-2.5 text-gray-900 bg-transparent border border-gray-300 rounded-lg focus:border-gray-300 focus:outline-none">
+
+            <div class='text-gray-700 font-medium text-sm pt-4 pb-1.5'>Horarios</div>
+            <div class='flex gap-x-2'>
+              <input autofocus required type="time" v-model='${2:item}.init' placeholder="Inicio" class="w-full px-3.5 py-2.5 text-gray-900 bg-transparent border border-gray-300 rounded-lg focus:border-gray-300 focus:outline-none">
+              <input autofocus required type="time" v-model='${2:item}.end' placeholder="Termino" class="w-full px-3.5 py-2.5 text-gray-900 bg-transparent border border-gray-300 rounded-lg focus:border-gray-300 focus:outline-none">
+            </div>
+
+            <div class='text-gray-700 font-medium text-sm pt-4 pb-1.5'>Descripción</div>
+            <textarea autofocus required type="text" v-model='${2:item}.desc'
+            class="w-full px-3.5 py-2.5 h-24 text-gray-900 bg-transparent border border-gray-300 rounded-lg focus:border-gray-300 focus:outline-none" />
+
+            <div class="text-gray-700 font-medium text-sm pb-1.5">Selección:</div>
+            <select class="bg-transparent cursor-pointer border border-gray-300 text-gray-900 rounded-lg block w-full p-2.5" v-model='${2:item}.select'>
+              <option v-for="i in lista" :value='i'>{{i.label}}</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="mt-4 sm:flex sm:items-center sm:-mx-2">
+          <button type="button" @click="emit('${1:nameEmit}')" class="w-full px-4 py-2 text-sm font-medium tracking-wide text-gray-700 capitalize transition-colors duration-300 transform border border-gray-200 rounded-md sm:w-1/2 sm:mx-2 dark:text-gray-200 dark:border-gray-700 dark:hover:bg-gray-800 hover:bg-gray-100 focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-40">
+            Cancelar
+          </button>
+
+          <button type="submit" class="w-full px-4 py-2 mt-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-btn-1 rounded-md sm:mt-0 sm:w-1/2 sm:mx-2 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40">
+            Agregar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</template>
+
+<script setup>
+  const emit = defineEmits()
+
+  const sendSubmit = () => {
+  }
+</script>
+]]></content>
+  <tabTrigger>{twmodalcomponent}</tabTrigger>
+  <description>Tailwind modal component</description>
+</snippet>
