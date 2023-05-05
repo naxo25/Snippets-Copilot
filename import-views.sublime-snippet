@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+import ${1:file} from '@/views/${2:view}/${1:file}.vue'
+]]></content>
+	<tabTrigger>impviews, import views</tabTrigger>
+	<scope>source.js</scope>
+	<description>Import views</description>
+</snippet>
