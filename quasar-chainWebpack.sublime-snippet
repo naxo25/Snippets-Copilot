@@ -6,7 +6,7 @@ chainWebpack (chain) {
     .set('@', path.resolve(__dirname, './src'))
 }
 ]]></content>
-  <tabTrigger>chainWebpack</tabTrigger>
+  <tabTrigger>chainWebpack, quasar</tabTrigger>
   <scope>source.js</scope>
   <description>chainWebpack quasar</description>
 </snippet>

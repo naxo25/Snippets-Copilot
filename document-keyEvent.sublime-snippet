@@ -12,7 +12,7 @@ const keysHandler = (event) => {
   try {
     Events[event.keyCode]()
   } catch(err) {}
-})
+}
 
 document.addEventListener("keydown", keysHandler)
 onUnmounted(() => document.removeEventListener("keydown", keysHandler))

@@ -2,7 +2,7 @@
   <content><![CDATA[
 import Store from '@/store'
 ]]></content>
-  <tabTrigger>{is, iS}</tabTrigger>
+  <tabTrigger>import, {is}</tabTrigger>
   <scope>source.js</scope>
   <description>import store</description>
 </snippet>

@@ -2,7 +2,7 @@
   <content><![CDATA[
 import { ${1:ref} } from 'vue'
 ]]></content>
-  <tabTrigger>vue3</tabTrigger>
+  <tabTrigger>v3, vue3</tabTrigger>
   <scope>source.js</scope>
   <description>import {vue3}</description>
 </snippet>

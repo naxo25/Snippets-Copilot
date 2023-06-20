@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-import {router} from '@/router.js'
+import { router } from '@/router.js'
 ]]></content>
   <tabTrigger>{ir, iR}</tabTrigger>
   <scope>source.js</scope>

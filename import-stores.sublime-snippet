@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+import { ${1:functionName} } from '@/stores/${2:file}.js'
+]]></content>
+  <tabTrigger>importstores, iss</tabTrigger>
+  <scope>source.js</scope>
+  <description>import stores</description>
+</snippet>

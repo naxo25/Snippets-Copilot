@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<View>
+  <Text>${1:}</Text>
+</View>
+]]></content>
+  <tabTrigger>View</tabTrigger>
+  <scope>source.js</scope>
+  <description>View ReactNative</description>
+</snippet>

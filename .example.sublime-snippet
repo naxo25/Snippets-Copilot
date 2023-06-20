@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-.
+$
 ]]></content>
-  <tabTrigger>change</tabTrigger>
+  <tabTrigger>{command}</tabTrigger>
   <scope>source.js</scope>
-  <description>change</description>
+  <description>command</description>
 </snippet>
