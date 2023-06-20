@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+flex items-center justify-center
+]]></content>
+  <tabTrigger>fcenter, flexcenter</tabTrigger>
+  <description>flex center</description>
+</snippet>
