@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+grid place-content-center
+]]></content>
+  <tabTrigger>gcenter, gridcenter</tabTrigger>
+  <description>grid center</description>
+</snippet>
