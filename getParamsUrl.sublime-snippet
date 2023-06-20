@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+const getParamsUrl = () => {
+  const url = window.location.href
+  const params = url.split('?')[1]
+
+  if (params) {
+    const paramValue = params.split('=')[1]
+    ${1:}
+  }
+}
+]]></content>
+  <tabTrigger>getParamsUrl</tabTrigger>
+  <scope>source.js</scope>
+  <description>getParamsUrl</description>
+</snippet>
