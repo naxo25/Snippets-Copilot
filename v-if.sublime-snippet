@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+v-if='${1:condition}'
+]]></content>
+	<tabTrigger>vif, v-if</tabTrigger>
+  <description>vue directive v-if</description>
+</snippet>

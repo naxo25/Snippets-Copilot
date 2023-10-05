@@ -4,9 +4,11 @@ const keysHandler = (event) => {
   console.log(event.keyCode)
 
   const Events = {
-    32: () => event(), // space
-    // 415: () => event(),
-    // 19: () => event(),
+    ${1:tecla}: () => {2:event}(),
+    // 32: () => space(),
+    // 27: () => esc(),
+    // 13: () => ok(),
+    // 415: () => ok(),
   }
 
   try {

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<script src="https://cdn.tailwindcss.com"></script>
+]]></content>
+  <tabTrigger>twcdn</tabTrigger>
+  <description>twcdn</description>
+</snippet>

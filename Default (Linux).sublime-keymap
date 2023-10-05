@@ -1,6 +1,7 @@
 [
 	{
-		"keys": ["ctrl+3"], "command": "toggle_comment",
+		"keys": ["ctrl+3"],
+		"command": "toggle_comment",
 		"args": { "block": false }
 	},
 	{
@@ -10,5 +11,9 @@
 	{
 		"keys": ["ctrl+alt+f"],
 		"command": "js_prettier"
+	},
+	{ "keys": ["ctrl+6"],
+		"command": "side_bar_open_in_browser" ,
+		"args": { "paths":[], "type":"production", "browser":"" }
 	}
 ]

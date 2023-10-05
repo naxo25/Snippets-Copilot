@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+const timerFunction = setTimeout(() => {
+  ${1://}
+}, 3000)
+
+clearTimeout(timerFunction)
+]]></content>
+  <tabTrigger>clearTimeout, timerFunction</tabTrigger>
+  <scope>source.js</scope>
+  <description>clearTimeout timerFunction</description>
+</snippet>

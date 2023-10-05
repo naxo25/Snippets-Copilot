@@ -1,8 +1,6 @@
 <snippet>
   <content><![CDATA[
-<div v-for="item in items">
-  <p> {{ item }} </p>
-</div>
+v-for="${2:item} in ${1:items}"
 ]]></content>
   <tabTrigger>vfor</tabTrigger>
   <scope>text.html.vue</scope>

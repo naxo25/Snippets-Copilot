@@ -1,7 +1,9 @@
 <snippet>
 	<content><![CDATA[
-v-for='item in ${1:object}'
+<div v-for='${2:item} in ${1:object}'>
+	{{ ${2:item} }}
+</div>
 ]]></content>
-	<tabTrigger>{directive, vfor}</tabTrigger>
-  <description>vue directive v-for='item in ${$:object}'</description>
+	<tabTrigger>for, vfor, vf</tabTrigger>
+  <description>vue directive v-for</description>
 </snippet>

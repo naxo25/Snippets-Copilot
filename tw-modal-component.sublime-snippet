@@ -49,8 +49,10 @@
 </template>
 
 <script setup>
-  const emit = defineEmits()
+  import { ref } from 'vue'
+  const item = ref({})
 
+  const emit = defineEmits()
   const sendSubmit = () => {
   }
 </script>

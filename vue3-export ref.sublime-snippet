@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+export const ${1:var} = ref(${2:})
+]]></content>
+  <tabTrigger>eref</tabTrigger>
+  <scope>source.js</scope>
+  <description>vue ref</description>
+</snippet>

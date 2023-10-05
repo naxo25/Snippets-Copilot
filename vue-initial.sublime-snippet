@@ -1,9 +1,0 @@
-<snippet>
-  <content><![CDATA[
-<template>
-${1}
-</template>
-]]></content>
-  <tabTrigger>vuetemp, template</tabTrigger>
-  <description>initial vue</description>
-</snippet>

@@ -2,7 +2,7 @@
   <content><![CDATA[
 console.log('${1:value}',${1:value})
 ]]></content>
-  <tabTrigger>cl</tabTrigger>
+  <tabTrigger>cll,cl</tabTrigger>
   <scope>source</scope>
-  <description>console log()</description>
+  <description>console log('value', value)</description>
 </snippet>

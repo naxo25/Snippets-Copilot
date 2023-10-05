@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
-template
-]]></content>
-  <tabTrigger>{durationFormat}</tabTrigger>
-  <description>Obtener segundos en formato hh:mm:ss</description>
-</snippet>

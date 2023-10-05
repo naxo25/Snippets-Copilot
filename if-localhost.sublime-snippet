@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+if (location.hostname === 'localhost') {
+  ${1:return}
+}
+]]></content>
+  <tabTrigger>iflocalhost, iflocation</tabTrigger>
+  <scope>source.js</scope>
+  <description>if localhost</description>
+</snippet>
