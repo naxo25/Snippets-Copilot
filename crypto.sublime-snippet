@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+crypto.randomUUID()
+]]></content>
+  <tabTrigger>crypto</tabTrigger>
+  <scope>source.js</scope>
+  <description>crypto</description>
+</snippet>

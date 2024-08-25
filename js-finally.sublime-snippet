@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+finally((resp) => {
+	console.log(${1:resp})
+})
+]]></content>
+  <tabTrigger>finally</tabTrigger>
+  <scope>source.js</scope>
+  <description>finally</description>
+</snippet>

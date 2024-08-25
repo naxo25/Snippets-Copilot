@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+async 
+]]></content>
+  <tabTrigger>async</tabTrigger>
+  <scope>source.js</scope>
+  <description>async</description>
+</snippet>

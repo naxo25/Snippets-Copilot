@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+response.sort((a, b) => a - b)
+]]></content>
+  <tabTrigger>sort</tabTrigger>
+  <scope>source.js</scope>
+  <description>sort</description>
+</snippet>

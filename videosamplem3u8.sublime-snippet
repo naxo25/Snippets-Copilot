@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+https://live-par-2-cdn-alt.livepush.io/live/bigbuckbunnyclip/index.m3u8
+]]></content>
+  <tabTrigger>video sample m3u8</tabTrigger>
+  <scope>source.js</scope>
+  <description>video sample m3u8</description>
+</snippet>

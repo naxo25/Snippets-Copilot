@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+const file_reader = new FileReader();
+file_reader.addEventListener("load", () => {
+  uploaded_image.value = file_reader.result;
+});
+file_reader.readAsDataURL(event.target.files[0]);
+]]></content>
+  <tabTrigger>readerImg</tabTrigger>
+  <scope>source.js</scope>
+  <description>readerImg</description>
+</snippet>

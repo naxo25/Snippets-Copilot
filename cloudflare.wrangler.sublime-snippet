@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+"deploy": "pnpm run build && wrangler pages deploy ./dist",
+]]></content>
+  <tabTrigger>wrangler</tabTrigger>
+  <description>deploy cloudflare wrangler</description>
+</snippet>

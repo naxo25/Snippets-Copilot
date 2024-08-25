@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+v-model='${1:item}'
+]]></content>
+  <tabTrigger>v-model, vmodel</tabTrigger>
+  <description>v-model</description>
+</snippet>

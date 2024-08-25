@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+URL.createObjectURL(${1:binary})
+]]></content>
+  <tabTrigger>createUrl from blob</tabTrigger>
+  <scope>source.js</scope>
+  <description>createUrl from blob</description>
+</snippet>

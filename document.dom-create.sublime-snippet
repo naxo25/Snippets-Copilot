@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+const elemento = document.createElement('div');
+elemento.className = 'elemento';
+elemento.innerText = msg;
+document.body.appendChild(elemento);
+]]></content>
+  <tabTrigger>adddom,createdom</tabTrigger>
+  <scope>source.js</scope>
+  <description>adddom,createdom</description>
+</snippet>

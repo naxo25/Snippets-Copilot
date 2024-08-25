@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+"baseUrl": ".",
+"paths": { "@/*": ["src/*"] },
+]]></content>
+  <tabTrigger>Astropath@</tabTrigger>
+  <scope>source.json</scope>
+  <description>En compilerOptions</description>
+</snippet>

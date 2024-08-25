@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+location.href = '${1:}'
+]]></content>
+  <tabTrigger>location.href</tabTrigger>
+  <scope>source.js</scope>
+  <description>location.href</description>
+</snippet>

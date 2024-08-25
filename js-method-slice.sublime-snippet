@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+slice(${1:start}, ${2:end})
+]]></content>
+  <tabTrigger>slice</tabTrigger>
+  <scope>source.js</scope>
+  <description>Copia del arreglo desde hasta</description>
+</snippet>
