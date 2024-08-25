@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+const sleep = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('The request is successful.')
+    }, ${1:400})
+  })
+}
+
+const ${2:func} = async () => {
+  let first_response = await sleep()
+  ${3://}
+}
+]]></content>
+  <tabTrigger>promise, sleep</tabTrigger>
+  <scope>source.js</scope>
+  <description>promise, sleep</description>
+</snippet>
