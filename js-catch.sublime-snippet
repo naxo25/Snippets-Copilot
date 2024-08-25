@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+catch((resp) => {
+	console.log(${1:resp})
+})
+]]></content>
+  <tabTrigger>catch</tabTrigger>
+  <scope>source.js</scope>
+  <description>catch</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+const handleScroll = () => {
+  ${1:const currentScrollPosition = document.documentElement.scrollTop
+  console.log(currentScrollPosition, 'currentScrollPosition')}
+}
+
+window.addEventListener('scroll', handleScroll)
+onUnmounted(() => window.removeEventListener('scroll', handleScroll))
+]]></content>
+  <tabTrigger>handleScroll</tabTrigger>
+  <scope>source.js</scope>
+  <description>handleScroll</description>
+</snippet>
