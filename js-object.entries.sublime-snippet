@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+Object.entries(${1:items}).map(([key,value]) => {
+  console.log({ key })
+  console.log('value', { ...value })
+})
+]]></content>
+  <tabTrigger>Object, objentries</tabTrigger>
+  <scope>source.js</scope>
+  <description>Object.entries</description>
+</snippet>

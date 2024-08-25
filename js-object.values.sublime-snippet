@@ -2,7 +2,7 @@
   <content><![CDATA[
 Object.values(${1:array})
 ]]></content>
-  <tabTrigger>objvalues</tabTrigger>
+  <tabTrigger>Object, objvalues</tabTrigger>
   <scope>source.js</scope>
-  <description>Object values</description>
+  <description>Object.values</description>
 </snippet>
