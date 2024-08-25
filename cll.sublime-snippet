@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-console.log('${1:value}',${1:value})
+console.log('${1:123}')
 ]]></content>
-  <tabTrigger>cll,cl</tabTrigger>
+  <tabTrigger>cll</tabTrigger>
   <scope>source</scope>
-  <description>console log('value', value)</description>
+  <description>console log()</description>
 </snippet>

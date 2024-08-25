@@ -1,0 +1,4 @@
+formatter.assets/*
+Formatter.quick-options
+node_modules
+package*

@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
 const asd = (value) => {
-  console.log(value)
+  ${1}
 }
 ]]></content>
-  <tabTrigger>{asdFunction}</tabTrigger>
+  <tabTrigger>{asdFunction,testFunction}</tabTrigger>
   <scope>source.js</scope>
-  <description>asdFunction</description>
+  <description>testFunction</description>
 </snippet>

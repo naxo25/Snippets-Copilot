@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-let ${1:var} = ${2}
+let ${1:name} = ${2:value};
 ]]></content>
   <tabTrigger>let</tabTrigger>
   <scope>source.js</scope>

@@ -5,6 +5,5 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 ]]></content>
   <tabTrigger>{docload, documentload, DOMContentLoaded}</tabTrigger>
-  <scope>source.js</scope>
   <description>document DOMContentLoaded</description>
 </snippet>

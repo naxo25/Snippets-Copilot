@@ -2,7 +2,7 @@
   <content><![CDATA[
 await 
 ]]></content>
-  <tabTrigger>aw</tabTrigger>
+  <tabTrigger>await</tabTrigger>
   <scope>source.js</scope>
   <description>await</description>
 </snippet>

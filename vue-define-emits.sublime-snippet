@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-const emit = defineEmits(['${1:funct}']);
+const emit = defineEmits(['${1:}'])
 ]]></content>
   <tabTrigger>{defineEmits}</tabTrigger>
   <scope>source.js</scope>

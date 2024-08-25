@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-https://placeimg.com/500/300/nature
+https://coffee.alexflipnote.dev/random
 ]]></content>
-  <tabTrigger>randomImg</tabTrigger>
+  <tabTrigger>imgrandom, randomImg</tabTrigger>
   <description>img ramdon</description>
 </snippet>

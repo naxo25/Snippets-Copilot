@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 async function ${1:functionName}() {
-  const result = await fetch('https://randomuser.me/api/?results=5');
+  const result = await fetch(`https://randomuser.me/api/?results=5`);
   return await result
 }
 

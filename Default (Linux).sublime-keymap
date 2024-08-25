@@ -15,5 +15,7 @@
 	{ "keys": ["ctrl+6"],
 		"command": "side_bar_open_in_browser" ,
 		"args": { "paths":[], "type":"production", "browser":"" }
-	}
+	},
+	{ "keys": ["ctrl+r"], "command": "goto_symbol_in_project" },
+	{ "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 ]

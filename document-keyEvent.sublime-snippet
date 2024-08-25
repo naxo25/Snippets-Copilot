@@ -4,11 +4,14 @@ const keysHandler = (event) => {
   console.log(event.keyCode)
 
   const Events = {
-    ${1:tecla}: () => {2:event}(),
     // 32: () => space(),
     // 27: () => esc(),
     // 13: () => ok(),
-    // 415: () => ok(),
+    // 37: () => left(),
+    // 40: () => down(),
+    // 48: () => cero(),
+    // 415: () => play(),
+    // 19: () => pause(),
   }
 
   try {
@@ -19,7 +22,7 @@ const keysHandler = (event) => {
 document.addEventListener("keydown", keysHandler)
 onUnmounted(() => document.removeEventListener("keydown", keysHandler))
 ]]></content>
-  <tabTrigger>{dockey, documentkey, teclado}</tabTrigger>
+  <tabTrigger>{dockeys, documentkeys, teclado}</tabTrigger>
   <scope>source.js</scope>
-  <description>document key</description>
+  <description>document keys</description>
 </snippet>

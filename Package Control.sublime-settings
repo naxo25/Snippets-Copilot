@@ -2,14 +2,24 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Formatter",
+		"Material Theme",
 	],
 	"installed_packages":
 	[
+		"Astro",
+		"BracketHighlighter",
+		"CodeFormatter",
 		"Console Wrap",
 		"Formatter",
+		"HTMLBeautify",
+		"LSP-astro",
+		"LSP-typescript",
 		"Material Theme",
+		"One Dark Material - Theme",
 		"Package Control",
 		"Sass",
+		"SublimeGit",
 		"Tailwind CSS Autocomplete",
 		"Vue Syntax Highlight",
 	],

@@ -3,10 +3,14 @@
 	/*"material_theme_accent_blue": true,*/
 	"font_size": 10,
 	"tab_size": 2,
-	"theme": "Material-Theme.sublime-theme",
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"theme": "OneDarkMaterial.sublime-theme",
+	"color_scheme": "Packages/User/SublimergeSummaryPanel.tmTheme",
+	"word_wrap": true,
 	"ignored_packages": [
+		"Formatter",
+		"Material Theme",
 		"Vintage",
 	],
 	"auto_complete": true,
+	"index_files": true,
 }

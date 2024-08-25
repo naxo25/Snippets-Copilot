@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-const props = defineProps({
+const {${1:value}} = defineProps({
   ${1:value}: ${2:type}
 })
 ]]></content>
