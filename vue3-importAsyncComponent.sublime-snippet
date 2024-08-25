@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const ${1:component} = defineAsyncComponent(() => import('${1:route}.vue'))
+]]></content>
+  <tabTrigger>import async</tabTrigger>
+  <scope>source.js</scope>
+  <description>import Async component</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+import('${1:module}').then(module => {
+  ${2:module.default()}
+})
+]]></content>
+  <tabTrigger>impmodule, impdynamic</tabTrigger>
+  <scope>source.js</scope>
+  <description>import dynamic</description>
+</snippet>

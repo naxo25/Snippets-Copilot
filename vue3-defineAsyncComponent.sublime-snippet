@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+defineAsyncComponent
+]]></content>
+  <tabTrigger>define</tabTrigger>
+  <scope>source.js</scope>
+  <description>define</description>
+</snippet>
