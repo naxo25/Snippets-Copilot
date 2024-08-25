@@ -2,44 +2,74 @@
   <content><![CDATA[
 import { mount } from '@vue/test-utils'
 import { expect, test, describe } from 'vitest'
-import buttons from '@/components/table/buttons.vue'
+import Table from '@/components/Table/tr.vue'
 
-describe('Buttons', () => {
-  test('sino se pasa un valor la propiedad only debe ser nula', async () => {
-    expect(buttons).toBeTruthy();
+describe('Table', () => {
+  test('Si no hay usuarios no monstrar contenido', async () => {
+    const wrapper = mount(Table,{
+      props: {
+        users: []
+      }
+    });
 
-     const wrapper = mount(buttons);
-     expect(wrapper.text()).toContain('');
+    expect(wrapper.props('users')).toStrictEqual([])
+    expect(wrapper.find('tr').exists()).toBeFalsy()
   })
 
-  test('si se se pasa al prop only como valor "edit" debe tomar ese valor y reenderizarse en pantalla', async () => {
-    expect(buttons).toBeTruthy();
+  test('Si hay usuarios mostrar contenido', async () => {
+    const users = await fetch('https://randomuser.me/api/?results=5').then(response => response.json());
 
-     const wrapper = mount(buttons,{
+    const wrapper = mount(Table,{
       props: {
-        only: 'edit'
+        users: users.results
       }
-     });
+    });
 
-    expect(wrapper.props('only')).toBe('edit');
-    expect(wrapper.find('button[name=edit]').exists()).toBeTruthy();
-    expect(wrapper.find('button[name=remove]').exists()).toBeFalsy();
+    // console.log("wrapper", wrapper.html())
+    // console.log("wrapper", wrapper.props('users'))
+
+    expect(wrapper.find('tr').exists()).toBeTruthy()
   })
 
-  test('si se se pasa un valor erroneo al prop only no debe reenderizarse botones en pantalla', async () => {
-    expect(buttons).toBeTruthy();
+  test('Si la api trae otro formato', async () => {
+    let users = '2134123; 12341'
 
-     const wrapper = mount(buttons,{
+    if (typeof users !== 'object')
+      users = []
+
+    const wrapper = mount(Table,{
       props: {
-        only: 'edi'
+        users
       }
-     });
+    });
 
-    expect(wrapper.find('button').exists()).toBeFalsy();
+    expect(wrapper.find('tr').exists()).toBeFalsy()
+  })
+
+  test('Si la api no trae por ej el campo name completo', async () => {
+    let users = [{
+      "name": {
+        "title": "Mr"
+      },
+      "email": "craig.griffin@example.com"
+    }]
+
+    if (typeof users !== 'object')
+      users = []
+
+    const wrapper = mount(Table,{
+      props: {
+        users
+      }
+    });
+    // console.log("wrapper", wrapper.find('th[id=nameTest]').text())
+    // console.log("wrapper", wrapper.props('users'))
+
+    expect(wrapper.find('th[id=nameTest]').text()).toBeFalsy()
   })
 })
 ]]></content>
   <tabTrigger>{ vitest }</tabTrigger>
   <scope>source.js</scope>
-  <description>vitest example</description>
+  <description>Ejemplos de varios vitests</description>
 </snippet>

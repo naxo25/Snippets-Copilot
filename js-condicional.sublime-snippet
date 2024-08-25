@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const Events = {
+  ${1:code}: () => ${2:event},
+}[${1:code}]()
+]]></content>
+  <tabTrigger>conditional,condicional,switch</tabTrigger>
+  <scope>source.js</scope>
+  <description>switch conditional</description>
+</snippet>
