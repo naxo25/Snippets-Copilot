@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<link rel="preload" href="${1:ruta imagen}" as="image">
+]]></content>
+  <tabTrigger>preload image</tabTrigger>
+  <description>preload image</description>
+</snippet>

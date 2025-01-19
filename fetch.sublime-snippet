@@ -6,6 +6,6 @@ fetch(`${1:https://randomuser.me/api/?results=5}`).then(async response => {
 })
 ]]></content>
   <tabTrigger>fetch</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source</scope>
   <description>Js component</description>
 </snippet>

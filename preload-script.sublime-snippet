@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<link rel="preload" href="${1:ruta script}" as="script" crossorigin="anonymous">
+<script src="${1:ruta script}" async></script>
+]]></content>
+  <tabTrigger>preload script</tabTrigger>
+  <description>preload script</description>
+</snippet>

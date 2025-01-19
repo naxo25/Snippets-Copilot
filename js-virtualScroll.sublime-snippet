@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+const intervals = 14
+const end = ref(intervals)
+
+const checkScrollEnd = () => {
+  const scrollEnd = document.documentElement.scrollHeight - window.innerHeight;
+  if (window.scrollY >= scrollEnd) {
+    console.log("¡Has llegado al final de la página!");
+    end.value += intervals
+  }
+}
+
+const listsFiltered = computed(() => {
+  return Object.entries(lists.value).slice(0, end.value)
+})
+
+const virtualScroll = () => {
+  requestAnimationFrame(checkScrollEnd);
+}
+
+window.addEventListener('scroll', virtualScroll)
+onUnmounted(() => window.removeEventListener('scroll', virtualScroll))
+]]></content>
+  <tabTrigger>virtualScroll</tabTrigger>
+  <scope>source.js</scope>
+  <description>virtualScroll</description>
+</snippet>

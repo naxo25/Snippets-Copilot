@@ -3,6 +3,6 @@
 Object.keys(${1:array})
 ]]></content>
   <tabTrigger>Object, objkeys</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source</scope>
   <description>Object.keys</description>
 </snippet>

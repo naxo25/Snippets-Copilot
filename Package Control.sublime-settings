@@ -4,6 +4,7 @@
 	[
 		"Formatter",
 		"Material Theme",
+		"Vue"
 	],
 	"installed_packages":
 	[
@@ -21,6 +22,6 @@
 		"Sass",
 		"SublimeGit",
 		"Tailwind CSS Autocomplete",
-		"Vue Syntax Highlight",
+		"Vue"
 	],
 }

@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-const ${1:varName} = defineAsyncComponent(() => import('@/components/${2:component}.vue'))
+const ${1:varName} = defineAsyncComponent(() => import(${2:'@/components/component.vue'}))
 ]]></content>
-	<tabTrigger>asycomponent, asyncimport</tabTrigger>
+	<tabTrigger>const, asycomponent, asyncimport</tabTrigger>
 	<scope>source.js</scope>
 	<description>Async components</description>
 </snippet>

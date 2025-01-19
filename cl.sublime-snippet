@@ -3,6 +3,5 @@
 console.log(${1:123}, '${1:123}')
 ]]></content>
   <tabTrigger>cl</tabTrigger>
-  <scope>source</scope>
   <description>console log()</description>
 </snippet>

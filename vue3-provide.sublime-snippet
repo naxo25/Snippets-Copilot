@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+provide('${1:key}', ${2:value})
+]]></content>
+  <tabTrigger>provide</tabTrigger>
+  <scope>source.js</scope>
+  <description>provide</description>
+</snippet>

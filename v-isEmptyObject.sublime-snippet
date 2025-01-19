@@ -1,7 +1,0 @@
-<snippet>
-  <content><![CDATA[
-v-if='Object.keys(${1:name}).length'
-]]></content>
-  <tabTrigger>{directive, isEmptyObject}</tabTrigger>
-  <description>vue directive isEmptyObject</description>
-</snippet>

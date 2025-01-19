@@ -3,6 +3,6 @@
 Object.values(${1:array})
 ]]></content>
   <tabTrigger>Object, objvalues</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source</scope>
   <description>Object.values</description>
 </snippet>

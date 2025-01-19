@@ -6,6 +6,6 @@ Object.entries(${1:items}).map(([key,value]) => {
 })
 ]]></content>
   <tabTrigger>Object, objentries</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source</scope>
   <description>Object.entries</description>
 </snippet>

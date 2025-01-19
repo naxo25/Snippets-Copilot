@@ -5,5 +5,5 @@ map(item => {
 })
 ]]></content>
 	<tabTrigger>map</tabTrigger>
-	<scope>source.js</scope>
+	<scope>source</scope>
 </snippet>

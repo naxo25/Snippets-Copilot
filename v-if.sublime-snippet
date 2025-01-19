@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-v-if='${1:condition}'
+v-if='${1:false}'
 ]]></content>
 	<tabTrigger>vif, v-if</tabTrigger>
-  <description>vue directive v-if</description>
+  <description>Directive v-if</description>
 </snippet>

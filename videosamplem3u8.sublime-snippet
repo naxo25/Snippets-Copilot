@@ -1,8 +1,7 @@
 <snippet>
   <content><![CDATA[
-https://live-par-2-cdn-alt.livepush.io/live/bigbuckbunnyclip/index.m3u8
+https://assets.afcdn.com/video49/20210722/v_645516.m3u8
 ]]></content>
   <tabTrigger>video sample m3u8</tabTrigger>
-  <scope>source.js</scope>
   <description>video sample m3u8</description>
 </snippet>

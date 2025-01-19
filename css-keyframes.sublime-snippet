@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-  animation: animation 1s;
+  animation: animation 1s ease-in-out forwards;
 }
 
 @keyframes animation {

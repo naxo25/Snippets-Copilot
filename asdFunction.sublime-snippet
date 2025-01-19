@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 const asd = (value) => {
-  ${1}
+  console.log(${1:value}, 'value')
 }
 ]]></content>
   <tabTrigger>{asdFunction,testFunction}</tabTrigger>

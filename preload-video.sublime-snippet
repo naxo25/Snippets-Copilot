@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<link rel="preload" href="${1:ruta video}" as="video" type="video/mp4">
+]]></content>
+  <tabTrigger>preload video</tabTrigger>
+  <description>preload video</description>
+</snippet>

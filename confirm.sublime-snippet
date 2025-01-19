@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+if (!confirm('¿Está seguro que quiere eliminar este elemento?'))
+  return
+]]></content>
+  <tabTrigger>confirm</tabTrigger>
+  <scope>source.js</scope>
+  <description>confirm</description>
+</snippet>

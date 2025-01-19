@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+const ${2:variable} = inject('${1:key}')
+]]></content>
+  <tabTrigger>inject</tabTrigger>
+  <scope>source.js</scope>
+  <description>inject</description>
+</snippet>

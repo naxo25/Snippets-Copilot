@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+"dev": "servor ./ index.html 8080 --reload --browse"
+"servor": "^4.0.2"
+]]></content>
+  <tabTrigger>servor</tabTrigger>
+  <description>servor</description>
+</snippet>

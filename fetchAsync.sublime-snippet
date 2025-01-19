@@ -11,6 +11,6 @@ ${1:functionName}().then(data => {
 })
 ]]></content>
   <tabTrigger>fetchAsync</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source</scope>
   <description>Async promise fetch</description>
 </snippet>

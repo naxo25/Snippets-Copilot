@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+@click="emit('${1:name}', ${2:prop})"
+]]></content>
+  <tabTrigger>clickemit</tabTrigger>
+  <scope>source.js</scope>
+  <description>click with emit</description>
+</snippet>
