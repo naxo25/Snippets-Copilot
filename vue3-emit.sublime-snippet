@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+emit('${1:name}', ${2:prop})
+]]></content>
+  <tabTrigger>emit</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>Vue Emit</description>
+</snippet>

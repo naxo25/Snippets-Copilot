@@ -7,8 +7,10 @@
 <script setup>
   import { ref } from 'vue'
   const ${2:name} = ref()
+
+  
 </script>
 ]]></content>
-  <tabTrigger>vuetemp, template</tabTrigger>
-  <description>template vue</description>
+  <tabTrigger>template_vue, vuetemplate</tabTrigger>
+  <description>Vue Template</description>
 </snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+${1:nameProp}: {
+  type: ${2:type},
+  default: ${3:default_value}
+}
+]]></content>
+  <tabTrigger>prop_vue, vprop</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>Vue Prop</description>
+</snippet>

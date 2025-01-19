@@ -1,9 +1,5 @@
 <snippet>
   <content><![CDATA[
-<template>
-
-</template>
-
 <script setup>
   const props = defineProps({
     ${1:nameProp}: {
@@ -17,6 +13,6 @@
   ${4:}
 </script>
 ]]></content>
-  <tabTrigger>template_component,vuetemplatecomponent</tabTrigger>
-  <description>Vue Template Component</description>
+  <tabTrigger>{vss, setup}</tabTrigger>
+  <description>Vue Component Setup script</description>
 </snippet>

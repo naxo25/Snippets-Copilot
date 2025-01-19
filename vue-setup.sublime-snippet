@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<script setup>
+  import { ref } from 'vue'
+  const ${1:name} = ref()
+
+  ${3:}
+</script>
+]]></content>
+  <tabTrigger>{vss, setup}</tabTrigger>
+  <description>Vue Template Setup script</description>
+</snippet>

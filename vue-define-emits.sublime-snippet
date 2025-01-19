@@ -2,7 +2,7 @@
   <content><![CDATA[
 const emit = defineEmits(['${1:}'])
 ]]></content>
-  <tabTrigger>{defineEmits}</tabTrigger>
-  <scope>source.js</scope>
-  <description>defineEmits vue3</description>
+  <tabTrigger>defineEmits</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>Vue defineEmits</description>
 </snippet>
