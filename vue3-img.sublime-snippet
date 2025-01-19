@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<img
+  :src="${1:image} || './noimg.webp'"
+  @error='${2:this.}event.target.src= "./noimg.webp"'
+  alt="User Avatar"
+  class="w-16 h-9 rounded object-cover"
+/>
+]]></content>
+  <tabTrigger>image</tabTrigger>
+  <description>image</description>
+</snippet>
